@@ -1,24 +1,52 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-function App() {
+import "./App.css";
+import data from "./data.json";
+import { ExternalRedirect } from "./ExternalRedirect";
+import { Home, NotFound } from "./Home";
+
+const Routes = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Switch>
+      <Route exact path="/" component={Home} />
+      {data.links.map((link, index) => (
+        <ExternalRedirect
+          exact
+          key={index}
+          path={link.source}
+          target={link.href}
+        />
+      ))}
+      <Route exact path="" component={NotFound} />
+    </Switch>
+  );
+};
+function App() {
+  useEffect(() => {
+    (async () => {
+      if (data.title) document.title = data.title;
+      if (data.meta) {
+        document
+          .querySelector("meta[name='description']")
+          .setAttribute("content", data.meta.description);
+        document
+          .querySelector("meta[name='author']")
+          .setAttribute("content", data.meta.author);
+      }
+
+      if (data.favicon) {
+        const logo = await import(`./icons/${data.favicon}`).catch(console.log);
+        document.getElementById("favicon").href = logo.default;
+      } else if (data.faviconSrc)
+        document.getElementById("favicon").href = data.faviconSrc;
+    })();
+  }, []);
+
+  return (
+    <Router>
+      <Routes />
+    </Router>
   );
 }
 

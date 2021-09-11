@@ -1,0 +1,41 @@
+{
+  "name": "Harsh Singhvi",
+  "bio": "@insomniac_coder",
+  "title": "Harsh Singhvi's Shortlinks",
+  "avatar": "",
+  "avatar_2x": "",
+  "avatar_url": "https://d33wubrfki0l68.cloudfront.net/913848502be88a7b0975f5dc3e94c72d4770931b/296c4/authors/admin/avatar_huc2199824d0add556e22cb1666f056b6b_42776_270x270_fill_q75_lanczos_center.jpg",
+  "avatar_2x_url": "https://d33wubrfki0l68.cloudfront.net/913848502be88a7b0975f5dc3e94c72d4770931b/296c4/authors/admin/avatar_huc2199824d0add556e22cb1666f056b6b_42776_270x270_fill_q75_lanczos_center.jpg",
+  "avatar_alt": "Harsh Singhvi",
+  "meta": {
+    "author": "Harsh Singhvi",
+    "description": "Harsh Singhvi's Shortlinks website"
+  },
+  "favicon": "harshIcon.png",
+  "faviconSrc": "",
+  "footer": "Made With Love by <a href=\"https://harshsinghvi.com\" target=\"_blank\" rel=\"noopener\">Harsh Singhvi</a>, Forked from <a href=\"https://littlelink.io\" target=\"_blank\" rel=\"noopener\">LittleLink</a>.",
+  "googleAnalyticsTrackingId": "",
+  "links": [
+    {
+      "name": "Website",
+      "source": "/website",
+      "href": "https://harshsinghvi.com",
+      "logo": "discord.svg",
+      "buttonClassName": ""
+    },
+    {
+      "name": "Blog",
+      "source": "/blog",
+      "href": "https://blog.harshsinghvi.com",
+      "logo": "discord.svg",
+      "buttonClassName": ""
+    },
+    {
+      "name": "Achievements",
+      "source": "/achievements",
+      "href": "https://achievements.harshsinghvi.com",
+      "logo": "discord.svg",
+      "buttonClassName": ""
+    }
+  ]
+}
