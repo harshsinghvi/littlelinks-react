@@ -14,7 +14,7 @@
   "favicon": "harshIcon.png",
   "faviconSrc": "",
   "footer": "Made With Love by <a href=\"https://harshsinghvi.com\" target=\"_blank\" rel=\"noopener\">Harsh Singhvi</a>, Forked from <a href=\"https://littlelink.io\" target=\"_blank\" rel=\"noopener\">LittleLink</a>.",
-  "googleAnalyticsTrackingId": "",
+  "googleAnalyticsTrackingId": "UA-141565153-4",
   "links": [
     {
       "name": "Website",

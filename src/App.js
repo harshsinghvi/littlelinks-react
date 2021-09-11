@@ -1,12 +1,13 @@
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import "./App.css";
 import data from "./data.json";
 import { ExternalRedirect } from "./ExternalRedirect";
+import useGoogleAnalytics from "./GoogleAnalytics";
 import { Home, NotFound } from "./Home";
 
 const Routes = () => {
+  useGoogleAnalytics();
   return (
     <Switch>
       <Route exact path="/" component={Home} />
@@ -36,7 +37,8 @@ function App() {
       }
 
       if (data.favicon) {
-        const logo = await import(`./icons/${data.favicon}`).catch(console.log);
+        const fav = data.favicon;
+        const logo = await import(`./icons/${fav}`).catch(console.log);
         document.getElementById("favicon").href = logo.default;
       } else if (data.faviconSrc)
         document.getElementById("favicon").href = data.faviconSrc;
