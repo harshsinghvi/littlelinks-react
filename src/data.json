@@ -20,15 +20,15 @@
       "name": "Website",
       "source": "/website",
       "href": "https://harshsinghvi.com",
-      "logo": "discord.svg",
+      "logo": "web.png",
       "buttonClassName": ""
     },
     {
       "name": "Blog",
       "source": "/blog",
       "href": "https://blog.harshsinghvi.com",
-      "logo": "discord.svg",
-      "buttonClassName": ""
+      "logo": "blog2.svg",
+      "buttonClassName": "blog"
     },
     {
       "name": "Achievements",
@@ -36,6 +36,18 @@
       "href": "https://achievements.harshsinghvi.com",
       "logo": "discord.svg",
       "buttonClassName": ""
+    },
+    {
+      "name": "Google Meet",
+      "source": "/google-meet",
+      "href": "https://meet.google.com/toi-qemn-upa",
+      "hidden": true
+    },
+    {
+      "name": "Google Meet 2",
+      "source": "/gmeet",
+      "href": "https://meet.google.com/ngu-vcns-dmj",
+      "hidden": true
     }
   ]
 }

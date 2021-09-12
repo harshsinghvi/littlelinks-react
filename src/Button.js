@@ -6,8 +6,12 @@ export const Button = (props) => {
   const [logoSrc, setLogoSrc] = useState();
 
   useEffect(() => {
-    if (logo) import(`./icons/${logo}`).then((i) => setLogoSrc(i.default));
-  }, [logo]);
+    if (logo)
+      import(`./icons/${logo}`)
+        .then((i) => setLogoSrc(i.default))
+        .catch(console.log);
+    else if (props.link.logoSrc) setLogoSrc(props.link.logoSrc);
+  }, [logo, props.link.logoSrc]);
 
   const logClick = () =>
     sendEvent({
