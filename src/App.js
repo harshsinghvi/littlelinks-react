@@ -4,7 +4,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import data from "./data.json";
 import { ExternalRedirect } from "./ExternalRedirect";
 import useGoogleAnalytics from "./GoogleAnalytics";
-import { Home, NotFound } from "./Home";
+import { Home } from "./Home";
+import { NotFound } from "./404";
 
 const Routes = () => {
   useGoogleAnalytics();

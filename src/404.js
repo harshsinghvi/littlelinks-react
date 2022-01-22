@@ -1,6 +1,6 @@
 import "./404.css";
 
-export const notFound = () => {
+export const NotFound = () => {
   return (
     <div className="notFound">
       <div class="rail">
@@ -61,6 +61,7 @@ export const notFound = () => {
             <div class="wall"></div>
           </div>
         </div>
+        <h1> Not Found </h1>
       </div>
     </div>
   );

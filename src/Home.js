@@ -64,6 +64,6 @@ export const Home = () => {
   );
 };
 
-export const NotFound = () => {
-  return <Redirect to="/" />;
-};
+// export const NotFound = () => {
+//   return <Redirect to="/" />;
+// };
