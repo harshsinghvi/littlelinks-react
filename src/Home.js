@@ -35,6 +35,7 @@ export const Home = () => {
         <div className="column" style={{ marginTop: "12%" }}>
           <Avatar src={avatarSrc} srcSet={avatar2XSrc} alt={data.avatar_alt} />
           <h1>{`${data.name}`}</h1>
+          <h2> {`${data.subTitle || ''}`} </h2>
           <p>{data.bio}</p>
           {links.map((link, index) => {
             if (link.hidden === "TRUE" || link.hidden === true) return null;
