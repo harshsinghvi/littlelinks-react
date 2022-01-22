@@ -10,6 +10,7 @@ export const Home = () => {
   const [links, setLinks] = useState([]);
 
   useEffect(() => {
+  (async () => {const data = await import('./data.json');
     if (data.avatar)
       import(`./icons/${data.avatar}`).then((avatar) =>
         setAvatarSrc(avatar.default)
@@ -27,7 +28,7 @@ export const Home = () => {
     //   return b.priority - a.priority;
     // });
 
-    setLinks(data.links);
+    setLinks(data.links);})()
   }, []);
   return (
     <div className="container">
