@@ -48,11 +48,11 @@ export const Home = () => {
           <div>
             <p className="footer">
               Made With ❤️ by{" "}
-              <a href="https://harshsinghvi.com" target="_blank" rel="noopener">
+              <a href="https://harshsinghvi.com" target="_blank" rel="noreferrer">
                 Harsh Singhvi
               </a>
               , Forked from{" "}
-              <a href="https://littlelink.io" target="_blank" rel="noopener">
+              <a href="https://littlelink.io" target="_blank" rel="noreferrer">
                 LittleLink
               </a>
               .
