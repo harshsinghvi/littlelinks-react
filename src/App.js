@@ -17,7 +17,7 @@ const Routes = () => {
           exact
           key={index}
           path={link.source}
-          target={link.href}
+          target={link.href || data.website}
         />
       ))}
       <Route exact path="" component={NotFound} />

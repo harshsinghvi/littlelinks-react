@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Redirect } from "react-router-dom";
+// import { Redirect } from "react-router-dom";
 import data from "./data.json";
 import { Avatar } from "./Avatar";
 import { Button } from "./Button";
@@ -11,7 +11,7 @@ export const Home = () => {
 
   useEffect(() => {
     if (data.avatar)
-      import(`./icons${data.avatar}`).then((avatar) =>
+      import(`./icons/${data.avatar}`).then((avatar) =>
         setAvatarSrc(avatar.default)
       );
     else if (data.avatar_url) setAvatarSrc(data.avatar_url);
@@ -37,7 +37,7 @@ export const Home = () => {
           <h1>{`${data.name}`}</h1>
           <p>{data.bio}</p>
           {links.map((link, index) => {
-            if (link.hidden) return null;
+            if (link.hidden === "TRUE" || link.hidden === true) return null;
             return (
               <>
                 <Button link={link} key={index} /> <br />
