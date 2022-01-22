@@ -394,3 +394,63 @@ button:hover,
 .button.button-blog:focus {
   filter: brightness(90%);
 }
+
+/* Resume */
+.button.button-resume {
+  color: #181818;
+  background-color: #f2fbff;
+}
+.button.button-resume:hover,
+.button.button-resume:focus {
+  filter: brightness(90%);
+}
+
+/* Slack */
+.button.button-slack {
+  color: #181818;
+  background-color: #f6efe8;
+}
+.button.button-slack:hover,
+.button.button-slack:focus {
+  filter: brightness(90%);
+}
+
+/* Docker */
+.button.button-docker {
+  color: #ffffff;
+  background-color: #002c66;
+}
+.button.button-docker:hover,
+.button.button-docker:focus {
+  filter: brightness(90%);
+}
+
+/* Gmeet */
+.button.button-gmeet {
+  color: #1b1b1b;
+  background-color: #ffffff;
+}
+.button.button-gmeet:hover,
+.button.button-gmeet:focus {
+  filter: brightness(90%);
+}
+
+/* Zoom */
+.button.button-zoom {
+  color: #2d8cff;
+  background-color: #ffffff;
+}
+.button.button-zoom:hover,
+.button.button-zoom:focus {
+  filter: brightness(90%);
+}
+
+/* Texam */
+.button.button-texam {
+  color: #181818;
+  background-color: #ffffff;
+}
+.button.button-texam:hover,
+.button.button-texam:focus {
+  filter: brightness(90%);
+}
