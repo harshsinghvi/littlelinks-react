@@ -19,12 +19,10 @@ const main = async () => {
         })
 
         const links = await re.json()
-        console.log(links)
-
         data.links = links;
 
         await fs.promises.writeFile('./src/data.json', JSON.stringify(data), 'utf-8')
-        console.log("Updated data.json")
+        console.log(`Updated data.json - inserted ${links.length} URLS`)
     } catch (err) {
         if (err.code === 'ERR_INVALID_URL') {
             console.log("ERR_INVALID_URL");
