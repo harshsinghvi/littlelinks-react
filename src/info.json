@@ -1,0 +1,215 @@
+{
+    "name": "Harsh Singhvi",
+    "bio": "I am a dedicated and diligent individual, amplified with curiosity and discipline when it comes to the wonderful world of Computers. I have a self-driven attitude to embrace new skills and competencies",
+    "subTitle": "Software Developer | Student",
+    "title": "Harsh Singhvi's Shortlinks",
+    "avatar": "harshAvatar.png",
+    "avatar_2x": "",
+    "XXXXX_avatar_url": "https://d33wubrfki0l68.cloudfront.net/913848502be88a7b0975f5dc3e94c72d4770931b/296c4/authors/admin/avatar_huc2199824d0add556e22cb1666f056b6b_42776_270x270_fill_q75_lanczos_center.jpg",
+    "XXXXX_avatar_2x_url": "https://d33wubrfki0l68.cloudfront.net/913848502be88a7b0975f5dc3e94c72d4770931b/296c4/authors/admin/avatar_huc2199824d0add556e22cb1666f056b6b_42776_270x270_fill_q75_lanczos_center.jpg",
+    "avatar_alt": "Harsh Singhvi",
+    "meta": {
+      "author": "Harsh Singhvi",
+      "description": "Harsh Singhvi's Shortlinks website"
+    },
+    "website": "https://harshsinghvi.com",
+    "favicon": "harshIcon.png",
+    "faviconSrc": "",
+    "footer": "Made With Love by <a href=\"https://harshsinghvi.com\" target=\"_blank\" rel=\"noopener\">Harsh Singhvi</a>, Forked from <a href=\"https://littlelink.io\" target=\"_blank\" rel=\"noopener\">LittleLink</a>.",
+    "googleAnalyticsTrackingId": "UA-141565153-4",
+    "links": [
+      {
+        "name": "me@harshsinghvi.com",
+        "source": "/mail",
+        "href": "mailto:me@harshsinghvi.com",
+        "logo": "email.svg",
+        "buttonClassName": "",
+        "hidden": "FALSE"
+      },
+      {
+        "name": "Whatsapp",
+        "source": "/whatsapp",
+        "href": "https://wa.me/message/JD64F37O5LP5B1",
+        "logo": "whatsapp.svg",
+        "buttonClassName": "whatsapp",
+        "hidden": "FALSE"
+      },
+      {
+        "name": "Website",
+        "source": "/website",
+        "href": "https://harshsinghvi.com",
+        "logo": "web.png",
+        "buttonClassName": "",
+        "hidden": "FALSE"
+      },
+      {
+        "name": "Instagram",
+        "source": "/instagram",
+        "href": "https://www.instagram.com/insomniac_coder/",
+        "logo": "instagram.svg",
+        "buttonClassName": "instagram",
+        "hidden": "FALSE"
+      },
+      {
+        "name": "GitHub",
+        "source": "/github",
+        "href": "https://github.com/harshsinghvi",
+        "logo": "github.svg",
+        "buttonClassName": "github",
+        "hidden": "FALSE"
+      },
+      {
+        "name": "LinkedIn",
+        "source": "/linkedin",
+        "href": "https://www.linkedin.com/in/harsh-singhvi/",
+        "logo": "linkedin.svg",
+        "buttonClassName": "linkedin",
+        "hidden": "FALSE"
+      },
+      {
+        "name": "Resume",
+        "source": "/resume",
+        "href": "https://www.icloud.com/iclouddrive/02v144rOSvzsM9f9skUp_W8GQ/#Harsh_Singhvi_Resume",
+        "logo": "resume.svg",
+        "buttonClassName": "resume",
+        "hidden": "FALSE"
+      },
+      {
+        "name": "Blog",
+        "source": "/blog",
+        "href": "https://blog.harshsinghvi.com",
+        "logo": "harshblog.png",
+        "buttonClassName": "blog",
+        "hidden": "FALSE"
+      },
+      {
+        "name": "Achievements",
+        "source": "/achievements",
+        "href": "https://achievements.harshsinghvi.com",
+        "logo": "trophy.svg",
+        "buttonClassName": "github",
+        "hidden": "FALSE"
+      },
+      {
+        "name": "Slack",
+        "source": "/slack",
+        "href": "https://insomniac-coder.slack.com",
+        "logo": "slack.svg",
+        "buttonClassName": "slack",
+        "hidden": "FALSE"
+      },
+      {
+        "name": "Google Meet link 1",
+        "source": "/google-meet",
+        "href": "https://meet.google.com/toi-qemn-upa",
+        "logo": "gmeet.svg",
+        "buttonClassName": "gmeet",
+        "hidden": "FALSE"
+      },
+      {
+        "name": "Google Meet link 2",
+        "source": "/gmeet",
+        "href": "https://meet.google.com/ngu-vcns-dmj",
+        "logo": "gmeet.svg",
+        "buttonClassName": "gmeet",
+        "hidden": "FALSE"
+      },
+      {
+        "name": "Zoom Meeting Link",
+        "source": "/zoom",
+        "href": "https://us04web.zoom.us/j/2013881623?pwd=bGVVTitkWGpCOFZ3NWQvam43VkFNdz09",
+        "logo": "zoom.svg",
+        "buttonClassName": "zoom",
+        "hidden": "FALSE"
+      },
+      {
+        "name": "TEXAM",
+        "source": "/texam",
+        "href": "",
+        "logo": "texam.png",
+        "buttonClassName": "texam",
+        "hidden": "FALSE"
+      },
+      {
+        "name": "TEXAM Meeting Link",
+        "source": "/texam-meeting",
+        "href": "https://meet.google.com/tgv-kdaw-hpd",
+        "logo": "texam.png",
+        "buttonClassName": "texam",
+        "hidden": "FALSE"
+      },
+      {
+        "name": "Discord",
+        "source": "/discord",
+        "href": "https://discord.com/invite/HkJNxES",
+        "logo": "discord.svg",
+        "buttonClassName": "discord",
+        "hidden": "FALSE"
+      },
+      {
+        "name": "Twitter",
+        "source": "/twitter",
+        "href": "https://mobile.twitter.com/harshsinghvi29",
+        "logo": "twitter.svg",
+        "buttonClassName": "twitter",
+        "hidden": "FALSE"
+      },
+      {
+        "name": "Facebook",
+        "source": "/facebook",
+        "href": "https://www.facebook.com/harsh.singhvi.9",
+        "logo": "facebook.svg",
+        "buttonClassName": "facebook",
+        "hidden": "FALSE"
+      },
+      {
+        "name": "YouTube",
+        "source": "/youtube",
+        "href": "https://www.youtube.com/channel/UCD0rG2ntLzRP8UPEH0_HIZw",
+        "logo": "youtube.svg",
+        "buttonClassName": "youtube",
+        "hidden": "FALSE"
+      },
+      {
+        "name": "Telegram",
+        "source": "/telegram",
+        "href": "https://t.me/InsomniacCoder",
+        "logo": "telegram.svg",
+        "buttonClassName": "telegram",
+        "hidden": "FALSE"
+      },
+      {
+        "name": "Docker Hub",
+        "source": "/dockerhub",
+        "href": "https://hub.docker.com/u/insomniaccoder",
+        "logo": "docker.svg",
+        "buttonClassName": "docker",
+        "hidden": "FALSE"
+      },
+      {
+        "name": "SMS",
+        "source": "/sms",
+        "href": "sms:+919772332434",
+        "logo": "",
+        "buttonClassName": "",
+        "hidden": "TRUE"
+      },
+      {
+        "name": "CALL",
+        "source": "/call",
+        "href": "tel:+919772332434",
+        "logo": "",
+        "buttonClassName": "",
+        "hidden": "TRUE"
+      },
+      {
+        "name": "Universal GPIO",
+        "source": "/universalgpio",
+        "href": "https://github.com/harshsinghvi/UniversalGPIO",
+        "logo": "github.svg",
+        "buttonClassName": "github",
+        "hidden": "TRUE"
+      }
+    ]
+  }
+  

@@ -1,16 +1,16 @@
 import fetch from "node-fetch"
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
-let data = require("./src/data.json")
+let data = require("./src/info.json")
 const fs = require('fs');
 
 
 
 const main = async () => {
 
-    const USERNAME = process.env.USERNAME;
-    const PASSWORD = process.env.PASSWORD
-    const URL = process.env.URL
+    const USERNAME = process.env.BUILD_LINKS_USERNAME;
+    const PASSWORD = process.env.BUILD_LINKS_PASSWORD
+    const URL = process.env.BUILD_LINKS_URL
     try {
         const re = await fetch(URL, {
             method: "GET", headers: {
@@ -19,7 +19,7 @@ const main = async () => {
         })
 
         const links = await re.json()
-        // console.log(links)
+        console.log(links)
 
         data.links = links;
 
