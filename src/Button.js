@@ -17,6 +17,7 @@ export const Button = (props) => {
     sendEvent({
       category: "Button Click",
       action: name,
+      label: Date().toString(),
     });
 
   return (
